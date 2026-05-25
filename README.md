@@ -175,14 +175,3 @@ Both absolute and relative `BaseURL` values are supported.
 
 ---
 
-## Comparison with HLS Script
-
-| Feature | HLS script | DASH script |
-|---------|-----------|-------------|
-| Input file | `input.txt` | `input.txt` |
-| Output file | `all_playlists_simple.txt` | `all_dash_urls.txt` |
-| Log file | `progress.txt` | `progress.txt` |
-| Manifest format | M3U8 (text) | MPD (XML) |
-| External library | `m3u8` | None (stdlib only) |
-| SSL verify | Disabled | Disabled |
-| Output header | `TsvHttpData-1.0` | `TsvHttpData-1.0` |
