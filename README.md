@@ -3,6 +3,7 @@
 A Python script that parses MPEG-DASH VOD streams from a list of MPD manifest URLs and extracts every segment URL — initialization segments, media segments, and the MPD itself — into a flat text file ready for bulk download tools.
 
 This is the DASH equivalent of the HLS extractor that walks Master → Variant playlists and collects `.ts` segment URLs.
+https://github.com/egunda/hls-cloner
 
 ---
 
